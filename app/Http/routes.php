@@ -11,4 +11,5 @@
 |
 */
 
+$app->get('/', ['as'=>'cep.show', 'uses' => 'DocumentationController@index']);
 $app->get('/cep/{postcode}', ['as'=>'cep.show', 'uses' => 'CepController@show']);
