@@ -1,0 +1,20 @@
+9999999999s:639:"<h1>API CEP</h1>
+<p>Api para consulta de CEP usando a base dos Correios</p>
+<h4>Iniciando o serviço</h4>
+<p>Inicie localmente usando:
+<code>php -S localhost:8080 -t public</code></p>
+<h4>Consultando um CEP:</h4>
+<p>acesse: <code>http://localhost:8080/cep/94010200</code></p>
+<p>o retorno deve ser algo parecido com:</p>
+<pre><code>    {
+        success: true,
+        text: "OK",
+        data: {
+            cep: "94010200",
+            logradouro: "Rua Adolfo Inácio de Barcelos",
+            complemento: "- até 795/796",
+            bairro: "Centro",
+            cidade: "Gravataí",
+            uf: "RS"
+        }
+    }</code></pre>";
